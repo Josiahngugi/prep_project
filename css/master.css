@@ -14,9 +14,12 @@
   color: blue;
 }
 .collapse navbar-collapse{
-  padding-left: 150px;
+  padding-left: 150p;
   color: red;
 }
 html {
     font-size: 15px;
+}
+.card{
+  border: none;
 }
