@@ -1,44 +1,45 @@
 .jumbotron{
   height: 450px;
-  background-image: url(../img/backgrd.jpg);
+  /* background-image: url(../img/backgrd.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 100px;
   padding-left: 100px;
  opacity: 0.95;
 }
-.jumbotron h1{
-  text-align: center;
-  color: black;
-
+.navbar-custom {
+    background-color: #4253f4;
 }
-.jumbotron background-image{
-  opacity: 0.01;
+/* change the brand and text color */
+.navbar-custom .navbar-text {
+    color: #ffffff;
 }
-
-.collapse navbar-collapse{
-  padding-left: 150p;
-  color: red;
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: #ffffff;
+    font-size: 17px;
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
 }
 html {
     font-size: 15px;
 }
-<<<<<<< HEAD
+
 .card{
   border: none;
 }
-=======
 .col-md-4 {
     border-right: 2px solid grey;
 }
 
-
 #developers {
        cursor: pointer;
-       color: green;
+       color: ;
      }
 
  #developers:hover {
        text-decoration: underline;
      }
->>>>>>> 37c910197f202dfe83f7f3d13b1a46e5b728556f
