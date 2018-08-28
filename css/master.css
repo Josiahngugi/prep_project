@@ -1,18 +1,21 @@
 .jumbotron{
   height: 450px;
-  background-image: url(../img/kb.jpeg);
+  background-image: url(../img/backgrd.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 100px;
   padding-left: 100px;
- color:
+ opacity: 0.95;
 }
 .jumbotron h1{
-  color: red;
+  text-align: center;
+  color: black;
+
 }
-.jumbotron h5{
-  color: blue;
+.jumbotron background-image{
+  opacity: 0.01;
 }
+
 .collapse navbar-collapse{
   padding-left: 150px;
   color: red;
@@ -20,3 +23,16 @@
 html {
     font-size: 15px;
 }
+.col-md-4 {
+    border-right: 2px solid grey;
+}
+
+
+#developers {
+       cursor: pointer;
+       color: green;
+     }
+
+ #developers:hover {
+       text-decoration: underline;
+     }
