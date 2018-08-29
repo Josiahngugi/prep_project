@@ -4,10 +4,12 @@
 <head>
   <meta charset="utf-8">
   <title>4_stars</title>
-  <script src="js/master.js" charset="utf-8"></script>
+
   <script src="js/jquery-1.7.1.min.js" charset="utf-8"></script>
+  <script src="js/master.js" charset="utf-8"></script>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/master.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -24,19 +26,20 @@
         <button class="btn bg-danger my-2 my-sm-0" type="submit">Search</button>
       </form>
       <ul class="navbar-nav ml-auto px-4 display-5 ">
-        <li class="nav-item active px-5">
+        <li class="nav-item active ">
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
-        <li class="nav-item px-5">
+        <li class="nav-item">
           <a class="nav-link" href="#">How it works</a>
         </li>
-        <li class="nav-item px-5">
+        <li class="nav-item">
           <a class="nav-link" href="#">Services</a>
         </li>
-        <li class="nav-item px-5">
+        <li class="nav-item">
           <a class="nav-link" href="#">Developers</a>
         </li>
         <!-- <li class="nav-item">
+
           <a class="nav-link" href="#">Quote</a>
         </li> -->
       </ul>
@@ -52,26 +55,33 @@
   </div>
   <!-- header image ends her -->
   <div class="container-fluid">
-    <div class="row">
+    <div class="row justify-content-center py-5">
       <!-- this here is navbar ends -->
       <div class="col-md-3">
-        <img src="img/mor.png" alt="moringaschool" width="190" height="60px">
+        <div class="card text-center">
+          <img src="img/mor.png" alt="moringaschool" width="190" height="60px">
+        </div>
       </div>
       <div class="col-md-3">
-        <img src="img/maudui.png" alt="safaricom" width=130px heigth=190px>
-      </div>
-
-      <div class="col-md-3">
-        <img src="img/im.png" alt="I&M" width=120px heigth=120px>
+        <div class="card text-center">
+          <img src="img/maudui.png" alt="safaricom" width=130px heigth=190px>
+        </div>
       </div>
       <div class="col-md-3">
-        <img src="img/cyt.png" alt="Cytonn" width=150px heigth=150px>
+        <div class="card text-center">
+          <img src="img/im.png" alt="I&M" width=120px heigth=120px>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card text-center">
+          <img src="img/cyt.png" alt="Cytonn" width=150px heigth=150px>
+        </div>
       </div>
     </div>
     <!-- company tabs ends here -->
     <!-- lorna -->
     <!-- how it works -->
-    <div class="row justify-content-center py-5">
+    <div class="row justify-content-center">
       <h1>How it works</h1>
     </div>
     <div class="row">
@@ -121,73 +131,71 @@
         </div>
 
       </div>
-
     </div>
-  </div>
-  <!-- The Services tabs begin here -->
 
-  <div class="row justify-content-center py-5">
-    <h1>Services</h1>
-  </div>
-  <div class="card py-2">
-    <div class="card-body">
-      <blockquote class="blockquote mb-0">
-        <p>
-          <div class="row justify-content-center">
-            <div class="col-md-4">
-              <h3>Our developers can undertake a range of projects</h3>
+    <div class="row justify-content-center py-5">
+      <h1>Services</h1>
+    </div>
+    <div class="card py-2">
+      <div class="card-body">
+        <blockquote class="blockquote mb-0">
+          <p>
+            <div class="row justify-content-center">
+              <div class="col-md-4">
+                <h3>Our developers can undertake a range of projects</h3>
+              </div>
+              <div class="col-md-4">
+                <h2>Website Devlopers</h2>
+                <p>We have developers efficient in website development that is Front-End,Back-End and Fullstack development</p>
+              </div>
+              <div class="col-md-3">
+                <h2>Anroid Devlopers</h2>
+                <p>We have developers efficient in of anroid applications using XML and Java</p>
+              </div>
             </div>
-            <div class="col-md-4">
-              <h2>Website Devlopers</h2>
-              <p>We have developers efficient in website development that is Front-End,Back-End and Fullstack development</p>
-            </div>
-            <div class="col-md-3">
-              <h2>Anroid Devlopers</h2>
-              <p>We have developers efficient in of anroid applications using XML and Java</p>
-            </div>
-          </div>
-    </div>
-    </p>
-
-    </blockquote>
-  </div>
-
-
-  <!--The services tabs ends here  -->
-
-  <!--  The developers tags start -->
-
-  <div class="row justify-content-center" id="developers">
-    <div class="col-md-3">
-      <div class="card">
-        <img class="card-img-top" src="img/web.svg" alt="Card image cap" width="100px" height="100px">
-        <center> Web-Developers</center>
       </div>
+      </p>
+
+      </blockquote>
     </div>
 
 
-    <div class="col-md-3">
-      <div class="card">
-        <img class="card-img-top" src="img/mobile.svg" alt="Card image cap" width="100px" height="100px">
-        <center> Mobile-Developers</center>
+    <!--The services tabs ends here  -->
+
+    <!--  The developers tags start -->
+
+    <div class="row justify-content-center" id="developers">
+      <div class="col-xm-12 col-sm-12 col-md-3">
+        <div class="card">
+          <img class="card-img-top" src="img/web.svg" alt="Card image cap" width="100px" height="100px">
+          <center> Web-Developers</center>
+        </div>
       </div>
-    </div>
 
-    <div class="col-md-3">
-      <div class="card">
-        <img class="card-img-top" src="img/software.svg" alt="Card image cap" width="100px" height="100px">
-        <center> Software-Engineers</center>
+
+      <div class="col-md-3">
+        <div class="card">
+          <img class="card-img-top" src="img/mobile.svg" alt="Card image cap" width="100px" height="100px">
+          <center> Mobile-Developers</center>
+        </div>
       </div>
-    </div>
 
-    <div class="col-md-3">
-      <div class="card">
-        <img class="card-img-top" src="img/software.svg" alt="Card image cap" width="100px" height="100px">
-        <center> Project managers</center>
+      <div class="col-md-3">
+        <div class="card">
+          <img class="card-img-top" src="img/software.svg" alt="Card image cap" width="100px" height="100px">
+          <center> Software-Engineers</center>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card">
+          <img class="card-img-top" src="img/software.svg" alt="Card image cap" width="100px" height="100px">
+          <center> Project managers</center>
+        </div>
       </div>
     </div>
   </div>
-  <!-- The developers tag ends here -->
+
 
   </div>
 </body>
